@@ -2,7 +2,7 @@
 body{
   background-color:black;
   color:white;
-  font-size: 32px;
+  font-size: 12px;
 }
 p{font-family:'Determination Mono' ;}
 #dialogue{
@@ -19,13 +19,13 @@ button{
 #dialogue-box{
   background-color: black;
   border : solid ;
-  border-width: 5px;
+  border-width: 3px;
   border-color: white;
-  width: 700px;
-  height: 150px;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top: 475px 
+  width: 283px;
+  height: 70px;
+  margin-left: 0px;
+  margin-right: 283px;
+  margin-top: 0px 
 }
 #sprite{
   position: relative;
@@ -82,7 +82,7 @@ button{
        url('fonts/webfonts_papyrus-webfont.svg#undertale_papyrusregular') format('svg');
   font-weight: normal;
   font-style: normal;
-
+  font-size: 8px;
 }
 @font-face {
   font-family: 'Undertale Sans';
@@ -94,7 +94,7 @@ button{
        url('fonts/webfonts_sans-webfont.svg#undertale_sansregular') format('svg');
   font-weight: normal;
   font-style: normal;
-
+  font-size: 10px;
 }
 @font-face {
   font-family: 'Determination Mono';
@@ -106,5 +106,5 @@ button{
        url('fonts/webfonts_determinationmonoweb-webfont.svg#determination_mono_webregular') format('svg');
   font-weight: normal;
   font-style: normal;
-
+  font-size: 12px;
 }
